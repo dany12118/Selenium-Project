@@ -1,0 +1,6 @@
+testuser_id,username,password,email,firstName,lastName,department,isActive
+1,admin,Admin@123,admin@test.com,Admin,User,IT,true
+2,testuser,Test@123,testuser@test.com,Test,User,Operations,true
+3,manager,Manager@123,manager@test.com,John,Manager,Sales,true
+4,readonly,ReadOnly@123,readonly@test.com,Read,Only,Support,true
+5,disabled_user,Disabled@123,disabled@test.com,Disabled,Account,IT,false

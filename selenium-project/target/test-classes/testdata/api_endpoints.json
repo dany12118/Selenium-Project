@@ -1,0 +1,32 @@
+[
+  {
+    "endpoint": "/api/users",
+    "method": "GET",
+    "expectedStatus": 200,
+    "description": "Get all users"
+  },
+  {
+    "endpoint": "/api/users/1",
+    "method": "GET",
+    "expectedStatus": 200,
+    "description": "Get user by ID"
+  },
+  {
+    "endpoint": "/api/users",
+    "method": "POST",
+    "expectedStatus": 201,
+    "description": "Create new user"
+  },
+  {
+    "endpoint": "/api/users/1",
+    "method": "PUT",
+    "expectedStatus": 200,
+    "description": "Update user"
+  },
+  {
+    "endpoint": "/api/users/1",
+    "method": "DELETE",
+    "expectedStatus": 204,
+    "description": "Delete user"
+  }
+]

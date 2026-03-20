@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Test Suite" parallel="false" thread-count="1">
+    <test name="Google Tests" preserve-order="true">
+        <classes>
+            <class name="com.example.tests.GoogleTest" />
+        </classes>
+    </test>
+
+    <test name="OrangeHRM Tests" preserve-order="true">
+        <classes>
+            <class name="com.example.tests.OrangeHRMLoginTest" />
+        </classes>
+    </test>
+</suite>

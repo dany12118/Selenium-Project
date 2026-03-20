@@ -1,0 +1,6 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Google Search Portal","User navigates to Google home page","0","0","1","0","0"
+"","OrangeHRM Authentication","User logs in with valid credentials","0","0","1","0","0"
+"","Google Search Portal","Test failure demonstration","1","0","0","0","0"
+"","OrangeHRM Authentication","User navigates to OrangeHRM login page","0","0","1","0","0"
+"","Google Search Portal","User performs search on Google","0","0","1","0","0"
