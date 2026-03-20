@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Selenium Test Suite" parallel="false" thread-count="1">
-    <test name="Google Tests" preserve-order="true">
+<suite name="Selenium Test Framework Suite" parallel="false" thread-count="1" verbose="2">
+    
+    <!-- Google Search Tests -->
+    <test name="Google Search Tests" preserve-order="true">
         <classes>
-            <class name="com.example.tests.GoogleTest" />
+            <class name="com.example.tests.GoogleTest">
+                <methods>
+                    <include name="testGoogleSearch" />
+                    <include name="testGooglePageTitle" />
+                    <include name="testGoogleSearchFunctionality" />
+                    <include name="testMultipleGoogleSearches" />
+                </methods>
+            </class>
         </classes>
     </test>
 
+    <!-- OrangeHRM Application Tests -->
     <test name="OrangeHRM Tests" preserve-order="true">
         <classes>
+            <class name="com.example.tests.OrangeHRMLoginTest">
+                <methods>
+                    <include name="testOrangeHRMLogin" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- All Tests Suite (Includes intentional failure test for demonstration) -->
+    <test name="Complete Test Suite" preserve-order="false">
+        <classes>
+            <class name="com.example.tests.GoogleTest" />
             <class name="com.example.tests.OrangeHRMLoginTest" />
         </classes>
     </test>
+
 </suite>

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 152.2 s <<< FAILURE! -- in TestSuite
-com.example.tests.GoogleTest.testIntentionalFailure -- Time elapsed: 4.230 s <<< FAILURE!
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 60.22 s <<< FAILURE! -- in TestSuite
+com.example.tests.GoogleTest.testIntentionalFailure -- Time elapsed: 1.842 s <<< FAILURE!
 java.lang.AssertionError: Expected Yahoo page title but got: Google expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)

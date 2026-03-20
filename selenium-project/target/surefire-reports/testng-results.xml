@@ -1,50 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-12T12:52:04 IST" name="Selenium Test Suite" finished-at="2026-03-12T12:54:35 IST" duration-ms="150918">
+  <suite started-at="2026-03-20T10:26:43 IST" name="Selenium Test Framework Suite" finished-at="2026-03-20T10:27:42 IST" duration-ms="58624">
     <groups>
       <group name="regression">
-        <method signature="GoogleTest.testGooglePageLoads()[pri:0, instance:com.example.tests.GoogleTest@55787112]" name="testGooglePageLoads" class="com.example.tests.GoogleTest"/>
-        <method signature="GoogleTest.testGoogleSearch()[pri:0, instance:com.example.tests.GoogleTest@55787112]" name="testGoogleSearch" class="com.example.tests.GoogleTest"/>
-        <method signature="GoogleTest.testIntentionalFailure()[pri:0, instance:com.example.tests.GoogleTest@55787112]" name="testIntentionalFailure" class="com.example.tests.GoogleTest"/>
-        <method signature="OrangeHRMLoginTest.testLoginPageLoads()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@226642a5]" name="testLoginPageLoads" class="com.example.tests.OrangeHRMLoginTest"/>
-        <method signature="OrangeHRMLoginTest.testLoginWithValidCredentials()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@226642a5]" name="testLoginWithValidCredentials" class="com.example.tests.OrangeHRMLoginTest"/>
+        <method signature="GoogleTest.testGoogleSearch()[pri:0, instance:com.example.tests.GoogleTest@5be067de]" name="testGoogleSearch" class="com.example.tests.GoogleTest"/>
+        <method signature="GoogleTest.testGooglePageLoads()[pri:0, instance:com.example.tests.GoogleTest@1a1da881]" name="testGooglePageLoads" class="com.example.tests.GoogleTest"/>
+        <method signature="GoogleTest.testGoogleSearch()[pri:0, instance:com.example.tests.GoogleTest@1a1da881]" name="testGoogleSearch" class="com.example.tests.GoogleTest"/>
+        <method signature="GoogleTest.testIntentionalFailure()[pri:0, instance:com.example.tests.GoogleTest@1a1da881]" name="testIntentionalFailure" class="com.example.tests.GoogleTest"/>
+        <method signature="OrangeHRMLoginTest.testLoginPageLoads()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@5b970f7]" name="testLoginPageLoads" class="com.example.tests.OrangeHRMLoginTest"/>
+        <method signature="OrangeHRMLoginTest.testLoginWithValidCredentials()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@5b970f7]" name="testLoginWithValidCredentials" class="com.example.tests.OrangeHRMLoginTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="GoogleTest.testGooglePageLoads()[pri:0, instance:com.example.tests.GoogleTest@55787112]" name="testGooglePageLoads" class="com.example.tests.GoogleTest"/>
-        <method signature="OrangeHRMLoginTest.testLoginPageLoads()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@226642a5]" name="testLoginPageLoads" class="com.example.tests.OrangeHRMLoginTest"/>
+        <method signature="GoogleTest.testGooglePageLoads()[pri:0, instance:com.example.tests.GoogleTest@1a1da881]" name="testGooglePageLoads" class="com.example.tests.GoogleTest"/>
+        <method signature="OrangeHRMLoginTest.testLoginPageLoads()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@5b970f7]" name="testLoginPageLoads" class="com.example.tests.OrangeHRMLoginTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-03-12T12:52:04 IST" name="Google Tests" finished-at="2026-03-12T12:52:23 IST" duration-ms="18499">
+    <test started-at="2026-03-20T10:26:43 IST" name="Google Search Tests" finished-at="2026-03-20T10:26:49 IST" duration-ms="5567">
       <class name="com.example.tests.GoogleTest">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.example.tests.GoogleTest@55787112]" started-at="2026-03-12T12:52:05 IST" name="setUp" finished-at="2026-03-12T12:52:07 IST" duration-ms="2809" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.example.tests.GoogleTest.testGooglePageLoads()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testGooglePageLoads()[pri:0, instance:com.example.tests.GoogleTest@55787112]" started-at="2026-03-12T12:52:07 IST" name="testGooglePageLoads" description="Test Google page loads successfully" finished-at="2026-03-12T12:52:12 IST" duration-ms="4103" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGooglePageLoads -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.GoogleTest@55787112]" started-at="2026-03-12T12:52:12 IST" name="tearDown" finished-at="2026-03-12T12:52:12 IST" duration-ms="664" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testGooglePageLoads status=SUCCESS method=GoogleTest.testGooglePageLoads()[pri:0, instance:com.example.tests.GoogleTest@55787112] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.example.tests.GoogleTest@55787112]" started-at="2026-03-12T12:52:12 IST" name="setUp" finished-at="2026-03-12T12:52:13 IST" duration-ms="772" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.example.tests.GoogleTest@5be067de]" started-at="2026-03-20T10:26:43 IST" name="setUp" finished-at="2026-03-20T10:26:46 IST" duration-ms="2333" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,22 +30,134 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGoogleSearch()[pri:0, instance:com.example.tests.GoogleTest@55787112]" started-at="2026-03-12T12:52:13 IST" name="testGoogleSearch" description="Test Google search functionality" finished-at="2026-03-12T12:52:17 IST" duration-ms="4401" status="PASS">
+        <test-method signature="testGoogleSearch()[pri:0, instance:com.example.tests.GoogleTest@5be067de]" started-at="2026-03-20T10:26:46 IST" name="testGoogleSearch" description="Test Google search functionality" finished-at="2026-03-20T10:26:47 IST" duration-ms="1085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGoogleSearch -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.GoogleTest@55787112]" started-at="2026-03-12T12:52:17 IST" name="tearDown" finished-at="2026-03-12T12:52:18 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.GoogleTest@5be067de]" started-at="2026-03-20T10:26:47 IST" name="tearDown" finished-at="2026-03-20T10:26:49 IST" duration-ms="1789" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testGoogleSearch status=SUCCESS method=GoogleTest.testGoogleSearch()[pri:0, instance:com.example.tests.GoogleTest@55787112] output={null}]]]>
+                <![CDATA[[TestResult name=testGoogleSearch status=SUCCESS method=GoogleTest.testGoogleSearch()[pri:0, instance:com.example.tests.GoogleTest@5be067de] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.example.tests.GoogleTest@55787112]" started-at="2026-03-12T12:52:18 IST" name="setUp" finished-at="2026-03-12T12:52:18 IST" duration-ms="729" status="PASS">
+      </class> <!-- com.example.tests.GoogleTest -->
+    </test> <!-- Google Search Tests -->
+    <test started-at="2026-03-20T10:26:49 IST" name="OrangeHRM Tests" finished-at="2026-03-20T10:26:49 IST" duration-ms="0">
+    </test> <!-- OrangeHRM Tests -->
+    <test started-at="2026-03-20T10:26:49 IST" name="Complete Test Suite" finished-at="2026-03-20T10:27:42 IST" duration-ms="53027">
+      <class name="com.example.tests.OrangeHRMLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.example.tests.OrangeHRMLoginTest@5b970f7]" started-at="2026-03-20T10:26:59 IST" name="setUp" finished-at="2026-03-20T10:27:00 IST" duration-ms="839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.tests.OrangeHRMLoginTest.testLoginPageLoads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPageLoads()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@5b970f7]" started-at="2026-03-20T10:27:00 IST" name="testLoginPageLoads" description="Test OrangeHRM login page loads" finished-at="2026-03-20T10:27:04 IST" duration-ms="4687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageLoads -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.OrangeHRMLoginTest@5b970f7]" started-at="2026-03-20T10:27:04 IST" name="tearDown" finished-at="2026-03-20T10:27:05 IST" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginPageLoads status=SUCCESS method=OrangeHRMLoginTest.testLoginPageLoads()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@5b970f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.example.tests.OrangeHRMLoginTest@5b970f7]" started-at="2026-03-20T10:27:05 IST" name="setUp" finished-at="2026-03-20T10:27:05 IST" duration-ms="715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.tests.OrangeHRMLoginTest.testLoginWithValidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@5b970f7]" started-at="2026-03-20T10:27:05 IST" name="testLoginWithValidCredentials" description="Test OrangeHRM login with valid credentials" finished-at="2026-03-20T10:27:42 IST" duration-ms="36579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.OrangeHRMLoginTest@5b970f7]" started-at="2026-03-20T10:27:42 IST" name="tearDown" finished-at="2026-03-20T10:27:42 IST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithValidCredentials status=SUCCESS method=OrangeHRMLoginTest.testLoginWithValidCredentials()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@5b970f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.OrangeHRMLoginTest -->
+      <class name="com.example.tests.GoogleTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.example.tests.GoogleTest@1a1da881]" started-at="2026-03-20T10:26:49 IST" name="setUp" finished-at="2026-03-20T10:26:50 IST" duration-ms="776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.tests.GoogleTest.testGooglePageLoads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGooglePageLoads()[pri:0, instance:com.example.tests.GoogleTest@1a1da881]" started-at="2026-03-20T10:26:50 IST" name="testGooglePageLoads" description="Test Google page loads successfully" finished-at="2026-03-20T10:26:52 IST" duration-ms="2364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGooglePageLoads -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.GoogleTest@1a1da881]" started-at="2026-03-20T10:26:52 IST" name="tearDown" finished-at="2026-03-20T10:26:52 IST" duration-ms="329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGooglePageLoads status=SUCCESS method=GoogleTest.testGooglePageLoads()[pri:0, instance:com.example.tests.GoogleTest@1a1da881] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.example.tests.GoogleTest@1a1da881]" started-at="2026-03-20T10:26:52 IST" name="setUp" finished-at="2026-03-20T10:26:53 IST" duration-ms="852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.example.tests.GoogleTest.testGoogleSearch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGoogleSearch()[pri:0, instance:com.example.tests.GoogleTest@1a1da881]" started-at="2026-03-20T10:26:53 IST" name="testGoogleSearch" description="Test Google search functionality" finished-at="2026-03-20T10:26:55 IST" duration-ms="1673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.GoogleTest@1a1da881]" started-at="2026-03-20T10:26:55 IST" name="tearDown" finished-at="2026-03-20T10:26:55 IST" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGoogleSearch status=SUCCESS method=GoogleTest.testGoogleSearch()[pri:0, instance:com.example.tests.GoogleTest@1a1da881] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.example.tests.GoogleTest@1a1da881]" started-at="2026-03-20T10:26:55 IST" name="setUp" finished-at="2026-03-20T10:26:56 IST" duration-ms="839" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,7 +168,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testIntentionalFailure()[pri:0, instance:com.example.tests.GoogleTest@55787112]" started-at="2026-03-12T12:52:18 IST" name="testIntentionalFailure" description="Intentional failure to test reporting" finished-at="2026-03-12T12:52:23 IST" duration-ms="4210" status="FAIL">
+        <test-method signature="testIntentionalFailure()[pri:0, instance:com.example.tests.GoogleTest@1a1da881]" started-at="2026-03-20T10:26:56 IST" name="testIntentionalFailure" description="Intentional failure to test reporting" finished-at="2026-03-20T10:26:58 IST" duration-ms="1862" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Expected Yahoo page title but got: Google expected [true] but found [false]]]>
@@ -130,11 +217,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIntentionalFailure -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.GoogleTest@55787112]" started-at="2026-03-12T12:52:23 IST" name="tearDown" finished-at="2026-03-12T12:52:23 IST" duration-ms="377" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.GoogleTest@1a1da881]" started-at="2026-03-20T10:26:58 IST" name="tearDown" finished-at="2026-03-20T10:26:59 IST" duration-ms="663" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testIntentionalFailure status=FAILURE method=GoogleTest.testIntentionalFailure()[pri:0, instance:com.example.tests.GoogleTest@55787112] output={null}]]]>
+                <![CDATA[[TestResult name=testIntentionalFailure status=FAILURE method=GoogleTest.testIntentionalFailure()[pri:0, instance:com.example.tests.GoogleTest@1a1da881] output={null}]]]>
               </value>
             </param>
           </params>
@@ -142,62 +229,6 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.example.tests.GoogleTest -->
-    </test> <!-- Google Tests -->
-    <test started-at="2026-03-12T12:52:23 IST" name="OrangeHRM Tests" finished-at="2026-03-12T12:54:35 IST" duration-ms="132403">
-      <class name="com.example.tests.OrangeHRMLoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.example.tests.OrangeHRMLoginTest@226642a5]" started-at="2026-03-12T12:52:23 IST" name="setUp" finished-at="2026-03-12T12:52:24 IST" duration-ms="760" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.example.tests.OrangeHRMLoginTest.testLoginPageLoads()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginPageLoads()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@226642a5]" started-at="2026-03-12T12:52:24 IST" name="testLoginPageLoads" description="Test OrangeHRM login page loads" finished-at="2026-03-12T12:53:50 IST" duration-ms="86626" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginPageLoads -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.OrangeHRMLoginTest@226642a5]" started-at="2026-03-12T12:53:50 IST" name="tearDown" finished-at="2026-03-12T12:53:51 IST" duration-ms="130" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testLoginPageLoads status=SUCCESS method=OrangeHRMLoginTest.testLoginPageLoads()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@226642a5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.example.tests.OrangeHRMLoginTest@226642a5]" started-at="2026-03-12T12:53:51 IST" name="setUp" finished-at="2026-03-12T12:53:51 IST" duration-ms="761" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.example.tests.OrangeHRMLoginTest.testLoginWithValidCredentials()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@226642a5]" started-at="2026-03-12T12:53:51 IST" name="testLoginWithValidCredentials" description="Test OrangeHRM login with valid credentials" finished-at="2026-03-12T12:54:35 IST" duration-ms="43938" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.OrangeHRMLoginTest@226642a5]" started-at="2026-03-12T12:54:35 IST" name="tearDown" finished-at="2026-03-12T12:54:35 IST" duration-ms="179" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testLoginWithValidCredentials status=SUCCESS method=OrangeHRMLoginTest.testLoginWithValidCredentials()[pri:0, instance:com.example.tests.OrangeHRMLoginTest@226642a5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.example.tests.OrangeHRMLoginTest -->
-    </test> <!-- OrangeHRM Tests -->
-  </suite> <!-- Selenium Test Suite -->
+    </test> <!-- Complete Test Suite -->
+  </suite> <!-- Selenium Test Framework Suite -->
 </testng-results>
